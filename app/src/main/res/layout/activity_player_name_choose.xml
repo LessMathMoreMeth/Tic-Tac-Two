@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerNameChoose"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_neon">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        app:srcCompat="@drawable/name_chooser" />
+
+    <EditText
+        android:id="@+id/playerNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startGameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_game"
+        android:textColor="@color/black"
+        android:background="@drawable/round_back_white"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+</LinearLayout>
